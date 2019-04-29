@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="BANKGURU" parallel="false">
-  <test name="Run on FIREFOX">
-    <classes>
-      <class name="com.bankguru.account.Account_01_RegisterAndLoginToSystem"/>
-    </classes>
-  </test>
+	<test name="Run on FIREFOX">
+		<classes>
+			<!-- <class name="com.bankguru.account.RegisterLogin_Level1_Step_By_Step"/> -->
+			<!-- <class name="com.bankguru.account.RegisterLogin_Level2_AbstractPage_MultiBrowser"/> -->
+			<!-- <class name="com.bankguru.account.RegisterLogin_Level3_PageObject"/> -->
+			<!-- <class name="com.bankguru.account.RegisterLogin_Level4_PageObjectExtend"/> -->
+			<class name="com.bankguru.account.RegisterLogin_Level5_WebdriverLifeCycle" />
+		</classes>
+	</test>
 </suite>

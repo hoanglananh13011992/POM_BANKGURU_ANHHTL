@@ -13,7 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class Account_01_RegisterAndLoginToSystem {
+public class RegisterLogin_Level1_Step_By_Step {
 	WebDriver driver;
 	private String userID, pass;
 	private String email, loginURL;
